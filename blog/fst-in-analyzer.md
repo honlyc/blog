@@ -334,6 +334,6 @@ for (int i = 0; i < data.length(); i++) {
 
 # 参考
 
-https://www.shenyanchao.cn/blog/2018/12/04/lucene-fst/
+[https://www.shenyanchao.cn/blog/2018/12/04/lucene-fst/](https://www.shenyanchao.cn/blog/2018/12/04/lucene-fst/)
 
-https://www.cnblogs.com/bonelee/p/6226185.html
+[https://www.cnblogs.com/bonelee/p/6226185.html](https://www.cnblogs.com/bonelee/p/6226185.html)

@@ -71,10 +71,10 @@ class MyComponent {
 
 # 参考
 
-https://micrometer.io/docs/guide/consoleReporter
+`https://micrometer.io/docs/guide/consoleReporter`
 
-https://frandorado.github.io/spring/2020/03/31/spring-actuator-undertow.html
+`https://frandorado.github.io/spring/2020/03/31/spring-actuator-undertow.html`
 
-https://github.com/micrometer-metrics/micrometer/issues/1227
+`https://github.com/micrometer-metrics/micrometer/issues/1227`
 
-https://github.com/undertow-io/undertow/blob/master/core/src/main/java/io/undertow/server/handlers/MetricsHandler.java#L117
+`https://github.com/undertow-io/undertow/blob/master/core/src/main/java/io/undertow/server/handlers/MetricsHandler.java#L117`

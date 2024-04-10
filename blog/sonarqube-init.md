@@ -57,4 +57,3 @@ services:
 
    参考[这里](https://community.sonarsource.com/t/docker-container-boot-failed-after-update-and-rollback/21387/3)，我一开始用的版本是``14``，需要把``postgres``的版本降到``12``才行。
 
-5. 

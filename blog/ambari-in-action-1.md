@@ -14,15 +14,15 @@ categories: ["ambari"]
 
 离线包的地址可以在官网找到：[Ambari](https://docs.cloudera.com/HDPDocuments/Ambari-2.7.4.0/bk_ambari-installation/content/hdp_314_repositories.html)
 
-Ambari 2.7.4：http://public-repo-1.hortonworks.com/ambari/centos7/2.x/updates/2.7.4.0/ambari-2.7.4.0-centos7.tar.gz
+[Ambari 2.7.4](http://public-repo-1.hortonworks.com/ambari/centos7/2.x/updates/2.7.4.0/ambari-2.7.4.0-centos7.tar.gz)
 
 HDP-3.1.4.0：
 
-HDP：http://public-repo-1.hortonworks.com/HDP/centos7/3.x/updates/3.1.4.0/HDP-3.1.4.0-centos7-rpm.tar.gz
+[HDP](http://public-repo-1.hortonworks.com/HDP/centos7/3.x/updates/3.1.4.0/HDP-3.1.4.0-centos7-rpm.tar.gz)
 
-HDP-UTILS：http://public-repo-1.hortonworks.com/HDP-UTILS-1.1.0.22/repos/centos7/HDP-UTILS-1.1.0.22-centos7.tar.gz
+[HDP-UTILS](http://public-repo-1.hortonworks.com/HDP-UTILS-1.1.0.22/repos/centos7/HDP-UTILS-1.1.0.22-centos7.tar.gz)
 
-HDP-GPL：http://public-repo-1.hortonworks.com/HDP-GPL/centos7/3.x/updates/3.1.4.0/HDP-GPL-3.1.4.0-centos7-gpl.tar.gz
+[HDP-GPL](http://public-repo-1.hortonworks.com/HDP-GPL/centos7/3.x/updates/3.1.4.0/HDP-GPL-3.1.4.0-centos7-gpl.tar.gz)
 
 ```bash
 http://10.20.1.21/HDP/centos7/3.1.4.0-315/
@@ -169,7 +169,7 @@ tar -zxvf ambari-2.7.4.0-centos7.tar.gz -C /home/user/ambari/data/
 
 # Elasticsearch
 
-https://github.com/steven-dfheinz/dfhz_elk_mpack
+[https://github.com/steven-dfheinz/dfhz_elk_mpack](https://github.com/steven-dfheinz/dfhz_elk_mpack)
 
 
 

@@ -16,7 +16,7 @@ categories: ["elasticsearch","logstash"]
 
 因为是新集群，考虑到数据安全性，所以需要``SSL``认证，这里还是使用``docker-compose``进行部署：
 
-参考：https://www.elastic.co/guide/en/elastic-stack-get-started/7.13/get-started-docker.html#get-started-docker-tls
+[参考](https://www.elastic.co/guide/en/elastic-stack-get-started/7.13/get-started-docker.html#get-started-docker-tls)
 
 ```yaml
 version: '2.2'

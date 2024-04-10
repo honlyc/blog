@@ -348,10 +348,10 @@ description = "provider-two"
 
 # 参考
 
-https://juejin.cn/post/6844903615346245646
+`https://juejin.cn/post/6844903615346245646`
 
-https://medium.com/bumble-tech/how-to-use-composite-builds-as-a-replacement-of-buildsrc-in-gradle-64ff99344b58
+`https://medium.com/bumble-tech/how-to-use-composite-builds-as-a-replacement-of-buildsrc-in-gradle-64ff99344b58`
 
-https://www.jianshu.com/p/8962d6ba936e
+`https://www.jianshu.com/p/8962d6ba936e`
 
-https://blog.csdn.net/weixin_34092455/article/details/89045881
+`https://blog.csdn.net/weixin_34092455/article/details/89045881`

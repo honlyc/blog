@@ -24,7 +24,7 @@ categories: ["elasticsearch","jvm"]
 -XX:UseAVX=2
 ```
 
-具体的``Issue``可以看这里：https://github.com/elastic/elasticsearch/issues/31425#issuecomment-402522285
+具体的``Issue``可以看这里：``https://github.com/elastic/elasticsearch/issues/31425#issuecomment-402522285``
 
 # 暴露的问题
 
