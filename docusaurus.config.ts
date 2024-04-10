@@ -16,9 +16,9 @@ const config: Config = {
   projectName: 'blog',
   customFields: {
     bio: '道阻且长，行则将至',
-    description:
-      '是一个由愧怍创建的个人博客，主要分享编程开发知识和项目，该网站基于 React 驱动的静态网站生成器 Docusaurus 构建。',
+    // description: '是一个由阿彪创建的个人博客，主要分享编程开发知识和项目，该网站基于 React 驱动的静态网站生成器 Docusaurus 构建。',
   },
+  onBrokenLinks: 'warn',
   themeConfig: {
     // announcementBar: {
     //   id: 'announcementBar-3',
