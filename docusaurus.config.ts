@@ -69,7 +69,7 @@ const config: Config = {
             { label: '笔记', to: 'docs/skill' },
             { label: '资源', to: 'resources' },
             { label: '友链', to: 'friends' },
-            { label: '工具推荐', to: 'docs/tools' },
+            // { label: '工具推荐', to: 'docs/tools' },
           ],
         },
         {
@@ -256,7 +256,7 @@ const config: Config = {
   ],
   i18n: {
     defaultLocale: 'zh-CN',
-    locales: ['en', 'zh-CN'],
+    locales: ['zh-CN'],
     localeConfigs: {
       en: {
         htmlLang: 'en-GB',
