@@ -2,7 +2,6 @@
 
 title: "Ambari 自定义告警通知"
 date: 2020-03-13T19:52:02+08:00
-draft: true
 tags: ["alert","custom"]
 categories: ["ambari"]
 ---

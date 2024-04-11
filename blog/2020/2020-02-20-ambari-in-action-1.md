@@ -1,7 +1,6 @@
 ---
 title: "Ambari 的安装"
 date: 2020-02-20T14:49:01+08:00
-draft: true
 tags: ["install"]
 categories: ["ambari"]
 ---

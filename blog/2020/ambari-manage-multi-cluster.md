@@ -1,7 +1,6 @@
 ---
 title: "Ambari 支持多集群管理"
 date: 2020-04-14T16:34:08+08:00
-draft: true
 tags: ["custom","cluster"]
 categories: ["ambari"]
 
