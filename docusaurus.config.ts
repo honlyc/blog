@@ -155,7 +155,7 @@ const config: Config = {
       repo: 'honlyc/blog',
       repoId: 'R_kgDOLsUsPA',
       category: 'General',
-      categoryId: 'DIC_kwDOLsUsPM4CenHT',
+      categoryId: 'DIC_kwDOLsUsPM4CenHV',
       theme: 'light',
       darkTheme: 'dark_dimmed',
     } satisfies Partial<GiscusConfig>,
