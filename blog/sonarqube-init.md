@@ -1,7 +1,7 @@
 ---
 title: "Sonarqube 初步使用"
 date: 2021-10-09T15:03:40+08:00
-draft: true
+
 ---
 
 直接上``docker-compose.yml``

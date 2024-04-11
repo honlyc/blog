@@ -1,7 +1,6 @@
 ---
 title: "Elasticsearch 6.1.4 upgrade to 7.4.0"
 date: 2019-10-09T14:18:00+08:00
-draft: true
 ---
 
 [TOC]

@@ -1,7 +1,7 @@
 ---
 title: "Hugo 常用修改"
 date: 2019-04-04T17:50:09+08:00
-draft: true
+
 tags: ["use"]
 categories: ["hugo"]
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Elasticsearch Docker Jvm Crash"
 date: 2021-08-04T09:21:43+08:00
-draft: true
+
 tags: ["crash"]
 categories: ["elasticsearch","jvm"] 
 ---

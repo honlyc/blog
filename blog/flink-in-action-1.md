@@ -1,7 +1,6 @@
 ---
 title: "Flink in Action (1)-使用 Gradle 开发 Flink 程序"
 date: 2020-09-18T15:01:21+08:00
-draft: true
 tags: ["gradle","flink"]
 categories: ["flink"]
 ---

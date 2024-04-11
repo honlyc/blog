@@ -1,7 +1,7 @@
 ---
 title: "Elasticsearch esrally 基准测试"
 date: 2020-06-02T14:00:47+08:00
-draft: true
+
 tags: ["esrally"]
 categories: ["elasticsearch","loadtest"]
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Elasticsearch DirectMemory OOM 分析"
 date: 2021-06-07T14:16:00+08:00
-draft: true
+
 tags: ["heap","OOM"]
 categories: ["elasticsearch","jvm"]
 ---

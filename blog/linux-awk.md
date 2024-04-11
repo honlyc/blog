@@ -1,7 +1,7 @@
 ---
 title: "Linux 下文本抽取统计及对比"
 date: 2021-04-19T13:26:31+08:00
-draft: true
+
 tags: ["awk","diff"]
 categories: ["linux"]
 ---

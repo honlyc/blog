@@ -1,7 +1,7 @@
 ---
 title: "Lucene Pure Negative Booleanquery"
 date: 2021-02-24T16:00:05+08:00
-draft: true
+
 tags: ["query"]
 categories: ["lucene"]
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Docker 部署 Elasticsearch 7.4.0 集群并添加安全认证"
 date: 2020-03-16T20:48:13+08:00
-draft: true
+
 tags: ["auth","7.4.0"]
 categories: ["elasticsearch"]
 ---

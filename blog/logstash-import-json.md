@@ -1,7 +1,7 @@
 ---
 title: "Logstash 导入 Json 文件到 Elasticsearch"
 date: 2021-06-25T16:39:36+08:00
-draft: true
+
 tags: ["import"]
 categories: ["elasticsearch","logstash"]
 ---

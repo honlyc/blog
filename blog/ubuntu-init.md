@@ -1,7 +1,7 @@
 ---
 title: "Ubuntu Init"
 date: 2019-07-23T09:53:35+08:00
-draft: true
+
 ---
 
 [TOC]

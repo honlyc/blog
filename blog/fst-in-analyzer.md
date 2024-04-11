@@ -1,7 +1,7 @@
 ---
 title: "使用 FST 做分词器"
 date: 2021-04-14T14:09:03+08:00
-draft: true
+
 tags: ["analyzer","fst"]
 categories: ["lucene"]
 ---

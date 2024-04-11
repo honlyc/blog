@@ -1,7 +1,7 @@
 ---
 title: "Presto in Action 1"
 date: 2021-06-02T13:29:40+08:00
-draft: true
+
 tags: ["presto"]
 categories: ["bigdata"]
 ---

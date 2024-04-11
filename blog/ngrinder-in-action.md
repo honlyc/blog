@@ -1,7 +1,7 @@
 ---
 title: "nGrinder 压测工具的使用"
 date: 2021-03-02T10:22:00+08:00
-draft: true
+
 tags: ["test"]
 categories: ["java","ngrinder"]
 ---

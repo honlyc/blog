@@ -1,7 +1,6 @@
 ---
 title: "Centos Init"
 date: 2020-02-20T14:58:46+08:00
-draft: true
 ---
 
 # Docker

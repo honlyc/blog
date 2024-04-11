@@ -1,7 +1,7 @@
 ---
 title: "Linux 中分析超大 JVM dump 文件"
 date: 2019-06-13T17:24:05+08:00
-draft: true
+
 tags: ["linux"]
 categories: ["jvm"]
 ---

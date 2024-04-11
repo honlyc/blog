@@ -1,7 +1,7 @@
 ---
 title: "Gradle Docker Action 1"
 date: 2021-05-14T21:49:24+08:00
-draft: true
+
 tags: ["docker"]
 categories: ["gradle"]
 ---

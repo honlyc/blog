@@ -1,7 +1,7 @@
 ---
 title: "Gradle 使用 buildSrc"
 date: 2021-04-21T14:07:32+08:00
-draft: true
+
 tags: ["build"]
 categories: ["gradle"]
 ---

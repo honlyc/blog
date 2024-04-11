@@ -1,7 +1,7 @@
 ---
 title: "Flink in Action (2)-Flink 使用 Hadoop 进行存储"
 date: 2020-10-10T11:25:18+08:00
-draft: true
+
 tags: ["gradle","flink","hadoop"]
 categories: ["flink"]
 ---

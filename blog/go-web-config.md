@@ -1,7 +1,7 @@
 ---
 title: "Go Web 读取配置文件"
 date: 2019-04-06T22:08:54+08:00
-draft: true
+
 tags: ["web","golang","viper"]
 categories: ["golang"]
 ---

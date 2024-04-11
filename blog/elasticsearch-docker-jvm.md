@@ -1,7 +1,7 @@
 ---
 title: "在 Elasticsearch Docker 容器中，导出堆栈信息"
 date: 2020-03-31T11:23:47+08:00
-draft: true
+
 tags: ["heap analysis"]
 categories: ["elasticsearch","jvm"]
 ---

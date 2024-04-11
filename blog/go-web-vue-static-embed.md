@@ -1,7 +1,7 @@
 ---
 title: "Gin 和 Vue 项目打包静态文件"
 date: 2019-04-16T17:14:49+08:00
-draft: true
+
 categories: ["golang"]
 tags: ["vue","static file"]
 ---

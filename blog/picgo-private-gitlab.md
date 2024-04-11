@@ -1,7 +1,7 @@
 ---
 title: "私有 GitLab 仓库 + picGo 快速实现图床"
 date: 2019-11-19T13:49:59+08:00
-draft: true
+
 tags: ["gitlab"]
 categories: ["git"]
 ---

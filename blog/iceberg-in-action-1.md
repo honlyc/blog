@@ -1,7 +1,7 @@
 ---
 title: "Iceberg in Action 1"
 date: 2021-09-17T09:27:09+08:00
-draft: true
+
 tags: ["iceberg","flink"]
 categories: ["data lake"]
 ---

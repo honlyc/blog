@@ -1,7 +1,6 @@
 ---
 title: "Elasticsearch Unassigned Process"
 date: 2019-08-02T14:18:00+08:00
-draft: true
 ---
 
 # 问题

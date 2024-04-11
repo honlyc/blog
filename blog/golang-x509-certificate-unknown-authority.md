@@ -1,7 +1,7 @@
 ---
 title: "解决 Golang https 请求时，x509: certificate signed by unknown authority 问题"
 date: 2019-08-23T14:17:17+08:00
-draft: true
+
 ---
 
 在使用``http``请求``https://**``网站时，报了``x509: certificate signed by unknown authority``这个错误。经查阅，是由于目标网站的``CA``证书在本机没有，这类问题有几种解决方式：
