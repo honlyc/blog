@@ -16,10 +16,9 @@ const config: Config = {
   projectName: 'blog',
   customFields: {
     bio: '道阻且长，行则将至',
-    // description: '是一个由阿彪创建的个人博客，主要分享编程开发知识和项目，该网站基于 React 驱动的静态网站生成器 Docusaurus 构建。',
+    description:
+      '是一个由愧怍创建的个人博客，主要分享编程开发知识和项目，该网站基于 React 驱动的静态网站生成器 Docusaurus 构建。',
   },
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: "warn",
   themeConfig: {
     // announcementBar: {
     //   id: 'announcementBar-3',
@@ -28,15 +27,15 @@ const config: Config = {
     metadata: [
       {
         name: 'keywords',
-        content: '阿彪, honlyc',
+        content: '愧怍, kuizuo',
       },
       {
         name: 'keywords',
-        content: 'blog, java, go, python, react, admin, web',
+        content: 'blog, javascript, typescript, node, react, vue, web',
       },
       {
         name: 'keywords',
-        content: '编程爱好者, Java、Go开发者, 大数据开发，分布式调度系统',
+        content: '编程爱好者, Web开发者, 写过爬虫, 学过逆向, 现在主攻ts全栈',
       },
     ],
     docs: {
@@ -46,7 +45,7 @@ const config: Config = {
     },
     navbar: {
       logo: {
-        alt: '阿彪',
+        alt: '愧怍',
         src: 'img/logo.svg',
         srcDark: 'img/logo.svg',
       },
@@ -89,7 +88,7 @@ const config: Config = {
             { label: '归档', to: 'blog/archive' },
             { label: '技术笔记', to: 'docs/skill' },
             { label: '实战项目', to: 'project' },
-
+            { label: '前端示例', to: 'https://example.kuizuo.cn' },
           ],
         },
         {
@@ -116,7 +115,9 @@ const config: Config = {
       ],
       copyright: `
         <p style="margin-bottom: 0;"><a href="http://beian.miit.gov.cn/">${beian}</a></p>
-
+        <p style="display: inline-flex; align-items: center;"><img style="height:20px;margin-right: 0.5rem;" src="/img/police.png" alt="police" height="20"/><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=${beian1.match(
+          /\d+/,
+        )?.[0]}" >${beian1}</a></p>
         <p>Copyright © 2020 - PRESENT 阿彪 Built with Docusaurus.</p>
         `,
     },
@@ -213,17 +214,17 @@ const config: Config = {
         ],
       },
     ],
-    // ['vercel-analytics', {
-    //     debug: process.env.NODE_ENV === 'development',
-    //     mode: 'auto',
-    //   },
-    // ],
+    ['vercel-analytics', {
+        debug: process.env.NODE_ENV === 'development',
+        mode: 'auto',
+      },
+    ],
     [
       './src/plugin/plugin-content-blog', // 为了实现全局 blog 数据，必须改写 plugin-content-blog 插件
       {
         path: 'blog',
         editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
-          `https://github.com/honlyc/blog/edit/main/${blogDirPath}/${blogPath}`,
+          `https://github.com/kuizuo/blog/edit/main/${blogDirPath}/${blogPath}`,
         editLocalizedFiles: false,
         blogDescription: '代码人生：编织技术与生活的博客之旅',
         blogSidebarCount: 10,
@@ -234,8 +235,8 @@ const config: Config = {
           defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
         feedOptions: {
           type: 'all',
-          title: '阿彪',
-          copyright: `Copyright © ${new Date().getFullYear()} 阿彪 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
+          title: '愧怍',
+          copyright: `Copyright © ${new Date().getFullYear()} 愧怍 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
         },
       },
     ],
