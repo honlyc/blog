@@ -17,7 +17,7 @@ const config: Config = {
   customFields: {
     bio: '道阻且长，行则将至',
     description:
-      '是一个由愧怍创建的个人博客，主要分享编程开发知识和项目，该网站基于 React 驱动的静态网站生成器 Docusaurus 构建。',
+      '是一个由阿彪创建的个人博客，主要分享编程开发知识和项目，该网站基于 React 驱动的静态网站生成器 Docusaurus 构建。',
   },
   themeConfig: {
     // announcementBar: {
@@ -27,15 +27,15 @@ const config: Config = {
     metadata: [
       {
         name: 'keywords',
-        content: '愧怍, kuizuo',
+        content: '阿彪, honlyc',
       },
       {
         name: 'keywords',
-        content: 'blog, javascript, typescript, node, react, vue, web',
+        content: 'blog, java, go, python, react, vue, web, admin',
       },
       {
         name: 'keywords',
-        content: '编程爱好者, Web开发者, 写过爬虫, 学过逆向, 现在主攻ts全栈',
+        content: '编程爱好者, 掌握 Java、Go、Python, 现在主攻大数据开发、分布式调度系统',
       },
     ],
     docs: {
@@ -45,7 +45,7 @@ const config: Config = {
     },
     navbar: {
       logo: {
-        alt: '愧怍',
+        alt: '阿彪',
         src: 'img/logo.svg',
         srcDark: 'img/logo.svg',
       },
@@ -88,7 +88,7 @@ const config: Config = {
             { label: '归档', to: 'blog/archive' },
             { label: '技术笔记', to: 'docs/skill' },
             { label: '实战项目', to: 'project' },
-            { label: '前端示例', to: 'https://example.kuizuo.cn' },
+            // { label: '前端示例', to: 'https://example.kuizuo.cn' },
           ],
         },
         {
@@ -115,9 +115,7 @@ const config: Config = {
       ],
       copyright: `
         <p style="margin-bottom: 0;"><a href="http://beian.miit.gov.cn/">${beian}</a></p>
-        <p style="display: inline-flex; align-items: center;"><img style="height:20px;margin-right: 0.5rem;" src="/img/police.png" alt="police" height="20"/><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=${beian1.match(
-          /\d+/,
-        )?.[0]}" >${beian1}</a></p>
+
         <p>Copyright © 2020 - PRESENT 阿彪 Built with Docusaurus.</p>
         `,
     },
@@ -154,7 +152,7 @@ const config: Config = {
       ],
     },
     giscus: {
-      repo: 'kuizuo/blog',
+      repo: 'honlyc/blog',
       repoId: 'MDEwOlJlcG9zaXRvcnkzOTc2MjU2MTI=',
       category: 'General',
       categoryId: 'DIC_kwDOF7NJDM4CPK95',
@@ -235,8 +233,8 @@ const config: Config = {
           defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
         feedOptions: {
           type: 'all',
-          title: '愧怍',
-          copyright: `Copyright © ${new Date().getFullYear()} 愧怍 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
+          title: '阿彪',
+          copyright: `Copyright © ${new Date().getFullYear()} 阿彪 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
         },
       },
     ],
@@ -246,7 +244,7 @@ const config: Config = {
       tagName: 'meta',
       attributes: {
         name: 'description',
-        content: '愧怍的个人博客',
+        content: '阿彪的个人博客',
       },
     },
   ],
