@@ -5,10 +5,10 @@ authors: honlyc
 tags: ['antd','web']
 ---
 
-# 背景
+## 背景
 升级到 `umi4` 后，自定义的 `BasicLayout` 拿不到 `routes` 了。导致无法自定义更新 `routes`。不得不另寻他路来实现动态路由。
 
-# 整体思路
+## 整体思路
 
 主要通过 `render` 和 `patchClientRoutes` 进行，其中 `render` 负责在渲染前从远端请求路由信息，`patchClientRoutes` 负责更新路由信息。
 
@@ -16,7 +16,7 @@ tags: ['antd','web']
 注意点：由于这里使用了`render`进行数据拉取，如果不是`SSO`方式进行登录的话，需要在登录成功后手动`reload()`页面才能成功拉取到。
 :::
 
-# 代码实现
+## 代码实现
 
 `routes.ts`文件：
 ```ts
@@ -143,7 +143,7 @@ export const render = async (oldRender: Function) => {
 }
 ```
 
-# 总结
+## 总结
 与 `umi3` 使用 `BasicLayout` 相比，这种方式虽然在登录成功需要 `reload()` 这种比较怪异的操作，但整理而言还是能够接受的。
 
 
